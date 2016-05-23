@@ -1,0 +1,96 @@
+.img-car{
+	width: 100%;
+	height: 20%;
+}
+.s-2{
+	background-image: url("");
+	text-align: center;
+	padding: 6%;
+	color: #fff;
+}
+.carousel-control{
+	padding-top: 15%;
+}
+.fa-chevron-left{
+	margin-left: -5%;
+}
+.fa-chevron-right{
+	margin-right: -75%;
+}
+/*background transparente */
+
+.text {
+    width: 100%;
+    height: 15em;
+    background-color:transparent ;
+    padding: 10px;
+    margin-top: -54.3%;
+    z-index: 1;
+}
+.left{
+    margin-left: -35%;
+    margin-top: 5%;
+}
+.background {
+    width:100%;
+    height: 25em;
+    background-color: #800000;
+    margin-top: -4.3%;
+}
+.bt-1{
+    margin-top: -50%;
+}
+ 
+.trans {
+    opacity: 0.8;
+    
+}
+.text1 {
+    width: 100%;
+    height: 15em;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    top:-15%;
+}
+.background1 {
+    width:100%;
+    height: 35em;
+    background-color:#737373 ;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+}
+ 
+.trans1 {
+    opacity: 0.4;
+    position: relative;
+    top:0%;
+}
+/* fin bg trans*/
+@media screen and (max-width: 600px) {
+	#s-1{
+		margin-top: 8%;
+	}
+	/*bg-trans*/
+	.text {
+    width: 100%;
+    height: 15em;
+    background-color:transparent ;
+    padding: 10px;
+    margin-top: -76.3%;
+    z-index: 1;
+	}
+	h1,h3{
+		font-size: 90% !important;
+	}
+	.left{
+	    margin-left: -0%;
+	    margin-top: 0%;
+	}
+	.background {
+	    width:100%;
+	    height: 12em;
+	    background-color: #800000;
+	    margin-top: -4.3%;
+	}
+}

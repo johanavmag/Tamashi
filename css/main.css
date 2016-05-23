@@ -1,0 +1,146 @@
+body{
+	background-image: url("../img/bg-body.jpg");
+	background-size: cover;
+	background-position: right;
+	font-family: 'Righteous', cursive !important;
+}
+.logo{
+	height: 100%;
+	width: 70%;
+	margin-left: 5%;
+	margin-bottom:16%;
+}
+/*nav-bar responsive*/
+.navbar-inverse{
+	background-color: #000 !important;
+	height: 11.85%;
+}
+.tam-logo{
+	margin-top: -23%;
+	height: 3em;
+	width: 2.6em;
+	margin-left: 50%;
+}
+.listas{
+	font-size: 1.5em;
+}
+.navbar-nav {
+	margin-left: 20% !important;
+	margin-top: -5% !important;
+	background-color: #000;
+}
+/*Efecto texto en japonés*/
+.cambio:before{
+	padding:auto;
+	font-size:1.1em;
+	color:#fff;
+	font-family: 'Righteous', cursive;
+}
+.cambio:hover:before{
+	font-size:1.8em;
+	font-weight: bold;
+	color: #b30000;
+}
+#link1:before {
+	content:"Nuestra carta";
+}
+#link1:hover:before {
+	content:"メニュー";
+}
+#link2:before {
+	content:"Servicio a domicilio";
+}
+#link2:hover:before {
+	content:"ホーム";
+}
+#link3:before {
+	content:"Promociones";
+}
+#link3:hover:before {
+	content:"昇進の";
+}
+#link4:before {
+	content:"Banquetes y presupuestos";
+}
+#link4:hover:before {
+	content:"宴会";
+}
+#link5:before {
+	content:"Blog";
+}
+#link5:hover:before {
+	content:"ブログ";
+}
+#link6:before {
+	content:"Ubicación";
+}
+#link6:hover:before {
+	content:"場所";
+}
+/*footer*/
+footer{
+	background-color: #000;
+	padding: 1.5%;
+}
+footer img {
+	opacity: .2;
+	margin-left: 40%;
+	margin-bottom: 10%;
+	width: 20%;
+	height: 20%;
+}
+p{
+	font-size: 95% !important;
+	text-align: center;
+}
+.brdr-sides{
+	border-right: .1em solid #4d4d4d;
+	border-left: .1em solid #4d4d4d;
+}
+#s-1{
+	margin-top: 3%;
+}
+.social-foot li{
+	list-style-type: none;
+}
+.social-foot span{
+	font-size: 150%;
+	margin-right: 10%;
+}
+.social-foot li a{
+	text-decoration: none;
+	color: inherit;
+}
+@media screen and (max-width: 600px) {
+		body{
+			background-image: url("../img/bg-body.jpg");
+			background-size: cover;
+			background-position: center;
+			font-family: 'Righteous', cursive !important;
+		}
+		.navbar-nav{
+			margin-left: 20% !important;
+			margin-top: 0% !important;
+			background-color: #000 !important;
+		}
+		nav>li>a{
+			background-color: #000 !important;
+		}
+		.tam-logo{
+			margin-top: -15%;
+			height: 2.5em;
+			width: 3em;
+			margin-left: -20%;
+		}
+		#s-1{
+			margin-top: 10%;
+		}
+		footer img {
+			margin-left: 10%;
+			width: 80%;
+			height: 80%;
+		}
+		footer {
+			font-size: 60%;
+		}
+	}

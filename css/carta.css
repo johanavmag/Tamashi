@@ -1,0 +1,73 @@
+/*Nuestra Carta*/
+.carta .bg-white{
+	background-color: #e0cebe;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border-radius: .7em;
+	height: 14em;
+}
+.img-carta{
+	margin-left:3% ;
+	margin-top: 5%;
+}
+h3{
+	color: #b30000 !important;
+}
+#carta{
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.mg-top{
+	margin-top: -10%;
+}
+.f-size{
+font-size: 80%;
+}
+.f-size-1{
+font-size: 70%;
+margin-left: -35%;
+}
+/*Efectos imagen */
+.grow img {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.grow img:hover {
+  width: 115%;
+  height: 115%;
+}
+
+@media screen and (max-width: 600px) {
+	.col-xs-9{
+		font-size: 80%;
+	}
+	.f-size{
+	font-size: 90% !important;
+	}
+	h6{
+		font-size: 90% !important;
+	}
+	.f-size-1{
+	font-size: 70%;
+	margin-left: -35%;
+	}
+	h3{
+		font-size: 100% !important;
+	}
+	.carta .bg-white{
+		height: 11.8em;
+	}
+	.img-carta{
+	margin-top: 55%;
+	margin-left: -40%;
+	}
+	.grow img {
+  		height: 195%;
+  		width: 195%;
+	}
+}
